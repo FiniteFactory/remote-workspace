@@ -13,3 +13,5 @@ A quick way to spin up a Debian cloud machine with Chrome and web-based VNC, all
 1. Open Chrome by clicking the menu icon on the bottom left and selecting "Web Browser".
 
 You now have a Linux machine running in the cloud for (relatively) [cheap](https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-codespaces#codespaces-pricing)!
+
+Any files in the container (including browser cookies) will be persisted across Codespace stop and start, but will be wiped clean when the container is rebuilt.
